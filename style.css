@@ -1,0 +1,55 @@
+/*Makes background fill screen*/
+body, html { 
+	width: 100%;
+	height: 100%;
+}
+ body {
+ 	font-family: Arial;
+ }
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: #F05F44; 
+}
+
+.faded {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.startup {
+	background-position: center;
+	background-image: url("backgroundimg.jpg");
+	background-size: cover;
+	height: 100%;
+	justify-content: center;
+   
+}
+
+.startup h1 {
+	font-size: 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #7552C4;
+  border-color: #7552C4; }
+
+.btn-primary:hover {
+  background-color: #9B37B3;
+  border-color: #9B37B3;
+  border-width: 5px;
+  cursor: pointer;
+}
