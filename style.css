@@ -36,8 +36,6 @@ hr {
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  justify-content: center;
-
 }
 
 .btn-xl {
@@ -46,7 +44,8 @@ hr {
 
 .btn-primary {
   background-color: #7552C4;
-  border-color: #7552C4; }
+  border-color: #7552C4;
+}
 
 .btn-primary:hover {
   background-color: #9B37B3;
