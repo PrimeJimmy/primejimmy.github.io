@@ -53,3 +53,14 @@ hr {
   border-width: 5px;
   cursor: pointer;
 }
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
